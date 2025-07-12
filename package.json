@@ -10,7 +10,8 @@
   "scripts": {
     "test": "gulp test",
     "start": "gulp serve",
-    "build": "gulp build"
+    "build": "gulp build",
+    "qr": "npx qrcode -o qr.png https://preludetech.github.io/pres-teamwork-europy-2025/"
   },
   "author": {
     "name": "Hakim El Hattab",
